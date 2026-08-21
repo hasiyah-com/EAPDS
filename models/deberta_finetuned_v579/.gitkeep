@@ -1,0 +1,13 @@
+วางไฟล์โมเดล DeBERTa (fine-tuned) ไว้ในโฟลเดอร์นี้
+โมเดลไม่ได้ถูกเก็บใน git เพราะไฟล์ใหญ่เกินลิมิต (model.safetensors ~737MB)
+
+ต้องมีไฟล์เหล่านี้:
+  config.json
+  model.safetensors
+  tokenizer.json
+  tokenizer_config.json
+  special_tokens_map.json
+  added_tokens.json
+  spm.model
+
+ดูวิธีในไฟล์ README.md หัวข้อ "การเตรียมโมเดล DeBERTa"

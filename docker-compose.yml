@@ -1,0 +1,7 @@
+services:
+  phishing-api:
+    build: .
+    container_name: phishing-api
+    ports:
+      - "8000:8000"
+    restart: always
